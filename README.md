@@ -4,7 +4,7 @@
 
 *App demo*
 
-<img src="/ARdice/ARdice/Demo/demo.gif?raw=true">
+<img src="/ARdice/Demo/demo.gif?raw=true">
 
 ## 📝Specs 
 Swift 4.0 Xcode 9.3 (9E145)
