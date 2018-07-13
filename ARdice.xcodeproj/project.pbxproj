@@ -13,6 +13,7 @@
 		EC835ADD208CEEA300D11812 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC835ADB208CEEA300D11812 /* Main.storyboard */; };
 		EC835ADF208CEEA400D11812 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC835ADE208CEEA400D11812 /* Assets.xcassets */; };
 		EC835AE2208CEEA400D11812 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC835AE0208CEEA400D11812 /* LaunchScreen.storyboard */; };
+		ECDDF5EF20F93E1000E6FF5E /* demo.gif in Resources */ = {isa = PBXBuildFile; fileRef = ECDDF5EE20F93E1000E6FF5E /* demo.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		EC835ADE208CEEA400D11812 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EC835AE1208CEEA400D11812 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EC835AE3208CEEA400D11812 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECDDF5EE20F93E1000E6FF5E /* demo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = demo.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		EC835AD4208CEEA300D11812 /* ARdice */ = {
 			isa = PBXGroup;
 			children = (
+				ECDDF5ED20F93DFE00E6FF5E /* Demo */,
 				EC835AD5208CEEA300D11812 /* AppDelegate.swift */,
 				EC835AD9208CEEA300D11812 /* ViewController.swift */,
 				EC835ADB208CEEA300D11812 /* Main.storyboard */,
@@ -65,6 +68,14 @@
 				EC835AE3208CEEA400D11812 /* Info.plist */,
 			);
 			path = ARdice;
+			sourceTree = "<group>";
+		};
+		ECDDF5ED20F93DFE00E6FF5E /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				ECDDF5EE20F93E1000E6FF5E /* demo.gif */,
+			);
+			path = Demo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +138,7 @@
 			files = (
 				EC835AD8208CEEA300D11812 /* art.scnassets in Resources */,
 				EC835AE2208CEEA400D11812 /* LaunchScreen.storyboard in Resources */,
+				ECDDF5EF20F93E1000E6FF5E /* demo.gif in Resources */,
 				EC835ADF208CEEA400D11812 /* Assets.xcassets in Resources */,
 				EC835ADD208CEEA300D11812 /* Main.storyboard in Resources */,
 			);
